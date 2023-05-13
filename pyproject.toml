@@ -10,6 +10,7 @@ packages = [{include = "graphene_django"}]
 python = "^3.11"
 django = "^4.2.1"
 graphene = "^3.2.2"
+pre-commit = "^3.3.1"
 
 
 [build-system]
