@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "graphene-django"
+version = "0.1.0"
+description = ""
+authors = ["Zykie Rallos <zykie1018@gmail.com>"]
+readme = "README.md"
+packages = [{include = "graphene_django"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.1"
+graphene = "^3.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
